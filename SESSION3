@@ -1,0 +1,64 @@
+# Task: 1  Declare four variables in Python: your age as an int, your height in centimeters as a float, your name as a str, and whether you have a Spotify account as a bool. Print each variable and use the type() function to display its data type
+
+age =int(input("enter a age :"))   
+print(f"Age: {age}")
+print("Type:-->",type(age))
+
+height =float(input("enter a height in float :"))   
+print(f"Height: {height}")
+print("Type:-->",type(height))
+
+name =str(input("enter a name :"))      
+print(f"Name: {name}")
+print("Type:-->",type(name))
+
+spotify_account =bool(input("true / false :"))     
+print(f"Spotify Account: {spotify_account}")
+print("Type:-->",type(spotify_account))
+
+Output :
+Age: 19
+Type:--> <class 'int'>
+Height: 5.11
+Type:--> <class 'float'>
+Name: kunal suthar
+Type:--> <class 'str'>
+Spotify Account: True
+Type:--> <class 'bool'>
+
+# Task: 2  Write a function total_cart_amount(prices) that takes a list of product prices as strings (like ['199.99', '49', '350.75']) and returns the total as a float. Print the result for a sample Flipkart-style cart.Hint: Use float() to convert each string before summing.
+
+def total_cart_amount(prices):
+    total=0
+    for i in prices:
+        total = total + float(i)
+    return total
+cart = ['199.99','49','350.75']
+print(total_cart_amount(cart))
+
+Output:
+599.74
+
+# Task : 3  Create a script that asks the user to input their cricket score as a string, converts it to an int, and prints 'Half-century!' if the score is 50 or more, otherwise prints 'Keep going!'. Use input(), int(), and if-else.
+
+Score = input("Enter your cricket score: ")
+Score = int(Score)
+
+if Score >= 50:
+    print(f"Half-century! your score is : {Score}")
+else:
+    print(f"Keep going! your score is : {Score}")
+
+Ouput :
+-->45
+Keep going! your score is : 45
+-->55
+Half-century! your score is : 55
+# Task: 4   Given the variable is_premium = 'True' (as a string), write code to correctly convert it to a boolean value and print its type.Hint:The bool() function alone won’t work as expected. Think about string comparison.
+
+is_premium = 'True'
+is_premium = (is_premium == 'True')
+print(type(is_premium))
+
+Ouput :
+<class 'bool'>

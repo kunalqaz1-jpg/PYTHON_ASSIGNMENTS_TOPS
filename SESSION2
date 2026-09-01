@@ -1,0 +1,47 @@
+#Task:1 Create three variables in Python named item_price, delivery_fee, and coupon_discount, and assign them values representing a Swiggy order (e.g., 250, 30, 20) Print each variable.
+
+#swiggy oders details:
+item_price=250
+delivery_fee=30
+coupon_discount=20
+
+print(f"item price is : {item_price}")
+print(f"delivery fee is : {delivery_fee}")
+print(f"coupon discount is : {coupon_discount}")
+
+# Task:2  Write a Python script that uses indentation correctly to check if a Flipkart product's price is above 1000; if yes, print 'Eligible for free delivery', else print 'Delivery charges apply'.Hint:Use an if-else block and make sure your indentation is consistent.
+
+# Flipkart product price:
+
+product_price = int(input("enter product price"))
+if product_price > 1000:
+    print("Eligible for free delivery")
+else:
+    print("Delivery charges apply !!")
+    
+
+#Task:3 Add both single-line and multi-line comments in your script explaining what each section does, using # for single-line and triple quotes for multi-line comments.
+
+# A single-line comment automatically terminates at the end of the current line
+# single line comment demonstrates variables, comments, and if-else statements.
+
+"""
+
+This is a multi-line comment using triple quotes
+It explains the purpose of the program.
+A multi-line comment requires explicit opening and closing tags.
+
+""" 
+
+# Task : 4  Create variables for an IPL match: team_name, runs_scored, and overs_played. Assign appropriate values and print them using the correct naming conventions for Python variables.Constraint: Use snake_case for all variable names.</em>
+
+# IPL match details :
+team_name = "RR"
+runs_scored = 250
+overs_played = 20
+
+print("Team Name:", team_name)
+print("Runs Scored:", runs_scored)
+print("Overs Played:", overs_played)
+
+

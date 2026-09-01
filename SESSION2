@@ -9,6 +9,11 @@ print(f"item price is : {item_price}")
 print(f"delivery fee is : {delivery_fee}")
 print(f"coupon discount is : {coupon_discount}")
 
+#Output :
+item price is : 250
+delivery fee is : 30
+coupon discount is : 20
+
 # Task:2  Write a Python script that uses indentation correctly to check if a Flipkart product's price is above 1000; if yes, print 'Eligible for free delivery', else print 'Delivery charges apply'.Hint:Use an if-else block and make sure your indentation is consistent.
 
 # Flipkart product price:
@@ -18,7 +23,13 @@ if product_price > 1000:
     print("Eligible for free delivery")
 else:
     print("Delivery charges apply !!")
-    
+
+Output :
+-->1002
+Eligible for free delivery on : 10002 
+
+-->
+Delivery charges apply on : 999 
 
 #Task:3 Add both single-line and multi-line comments in your script explaining what each section does, using # for single-line and triple quotes for multi-line comments.
 
@@ -33,6 +44,7 @@ A multi-line comment requires explicit opening and closing tags.
 
 """ 
 
+
 # Task : 4  Create variables for an IPL match: team_name, runs_scored, and overs_played. Assign appropriate values and print them using the correct naming conventions for Python variables.Constraint: Use snake_case for all variable names.</em>
 
 # IPL match details :
@@ -44,4 +56,8 @@ print("Team Name:", team_name)
 print("Runs Scored:", runs_scored)
 print("Overs Played:", overs_played)
 
+Output :
+Team Name: RR
+Runs Scored: 250
+Overs Played: 20
 
